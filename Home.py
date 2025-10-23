@@ -31,7 +31,7 @@ def show_home():
         st.markdown(
             f"""
             <div style="background-color:#cce6ff; padding:20px; border-radius:10px; box-shadow: 2px 2px 5px #aaa; color:#000;">
-                <h2>สวัสดี {student.get('name','')} 👋</h2>
+                <h2>{student.get('name','')} 👋</h2>
                 <p><b>กำลังศึกษาอยู่ที่:</b> {student.get('school','')}</p>
                 <p><b>เรื่องที่สนใจ:</b> {student.get('favorite_subject','ยังไม่ได้ระบุ')}</p>
                 <p><b>เบอร์โทรศัพท์:</b> {student.get('phone','')}</p>
